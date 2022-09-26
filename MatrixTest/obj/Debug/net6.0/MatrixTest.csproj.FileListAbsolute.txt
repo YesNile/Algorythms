@@ -1,0 +1,15 @@
+H:\AlgorythmFinal\MatrixTest\bin\Debug\net6.0\MatrixTest.exe
+H:\AlgorythmFinal\MatrixTest\bin\Debug\net6.0\MatrixTest.deps.json
+H:\AlgorythmFinal\MatrixTest\bin\Debug\net6.0\MatrixTest.runtimeconfig.json
+H:\AlgorythmFinal\MatrixTest\bin\Debug\net6.0\MatrixTest.dll
+H:\AlgorythmFinal\MatrixTest\bin\Debug\net6.0\MatrixTest.pdb
+H:\AlgorythmFinal\MatrixTest\obj\Debug\net6.0\MatrixTest.csproj.AssemblyReference.cache
+H:\AlgorythmFinal\MatrixTest\obj\Debug\net6.0\MatrixTest.GeneratedMSBuildEditorConfig.editorconfig
+H:\AlgorythmFinal\MatrixTest\obj\Debug\net6.0\MatrixTest.AssemblyInfoInputs.cache
+H:\AlgorythmFinal\MatrixTest\obj\Debug\net6.0\MatrixTest.AssemblyInfo.cs
+H:\AlgorythmFinal\MatrixTest\obj\Debug\net6.0\MatrixTest.csproj.CoreCompileInputs.cache
+H:\AlgorythmFinal\MatrixTest\obj\Debug\net6.0\MatrixTest.dll
+H:\AlgorythmFinal\MatrixTest\obj\Debug\net6.0\refint\MatrixTest.dll
+H:\AlgorythmFinal\MatrixTest\obj\Debug\net6.0\MatrixTest.pdb
+H:\AlgorythmFinal\MatrixTest\obj\Debug\net6.0\MatrixTest.genruntimeconfig.cache
+H:\AlgorythmFinal\MatrixTest\obj\Debug\net6.0\ref\MatrixTest.dll

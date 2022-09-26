@@ -1,0 +1,15 @@
+D:\Users\Данил\RiderProjects\AlgorythmFinal\MatrixAlgorythm\obj\Debug\net6.0\MatrixAlgorythm.csproj.AssemblyReference.cache
+D:\Users\Данил\RiderProjects\AlgorythmFinal\MatrixAlgorythm\obj\Debug\net6.0\MatrixAlgorythm.GeneratedMSBuildEditorConfig.editorconfig
+D:\Users\Данил\RiderProjects\AlgorythmFinal\MatrixAlgorythm\obj\Debug\net6.0\MatrixAlgorythm.AssemblyInfoInputs.cache
+D:\Users\Данил\RiderProjects\AlgorythmFinal\MatrixAlgorythm\obj\Debug\net6.0\MatrixAlgorythm.AssemblyInfo.cs
+D:\Users\Данил\RiderProjects\AlgorythmFinal\MatrixAlgorythm\obj\Debug\net6.0\MatrixAlgorythm.csproj.CoreCompileInputs.cache
+D:\Users\Данил\RiderProjects\AlgorythmFinal\MatrixAlgorythm\bin\Debug\net6.0\MatrixAlgorythm.exe
+D:\Users\Данил\RiderProjects\AlgorythmFinal\MatrixAlgorythm\bin\Debug\net6.0\MatrixAlgorythm.deps.json
+D:\Users\Данил\RiderProjects\AlgorythmFinal\MatrixAlgorythm\bin\Debug\net6.0\MatrixAlgorythm.runtimeconfig.json
+D:\Users\Данил\RiderProjects\AlgorythmFinal\MatrixAlgorythm\bin\Debug\net6.0\MatrixAlgorythm.dll
+D:\Users\Данил\RiderProjects\AlgorythmFinal\MatrixAlgorythm\bin\Debug\net6.0\MatrixAlgorythm.pdb
+D:\Users\Данил\RiderProjects\AlgorythmFinal\MatrixAlgorythm\obj\Debug\net6.0\MatrixAlgorythm.dll
+D:\Users\Данил\RiderProjects\AlgorythmFinal\MatrixAlgorythm\obj\Debug\net6.0\refint\MatrixAlgorythm.dll
+D:\Users\Данил\RiderProjects\AlgorythmFinal\MatrixAlgorythm\obj\Debug\net6.0\MatrixAlgorythm.pdb
+D:\Users\Данил\RiderProjects\AlgorythmFinal\MatrixAlgorythm\obj\Debug\net6.0\MatrixAlgorythm.genruntimeconfig.cache
+D:\Users\Данил\RiderProjects\AlgorythmFinal\MatrixAlgorythm\obj\Debug\net6.0\ref\MatrixAlgorythm.dll

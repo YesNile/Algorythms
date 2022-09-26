@@ -1,0 +1,32 @@
+﻿namespace PowAlgorythm;
+
+public class Pow : PowTest
+{
+    // public int Degree;
+    // public int Number;
+    // public int Steps;
+    public override long Run()
+    {
+        long res = 1;
+        for (int i = 0; i < 2000; i++)
+        {
+            int count = 0;
+            res = 1;
+            int degree = i;
+            for (int j = 0; j < degree; j++)
+            {
+                res *= Number;
+                count++;
+                
+            }
+            Steps.Add(new Steps(degree:degree,stepNumber:count));
+        }
+        
+        return res;
+    }
+
+    public override string GetName()
+    {
+        return "Pow";
+    }
+}
