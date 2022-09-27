@@ -132,7 +132,7 @@ namespace AlgorithmsAnalysis
         // }
 
         // Driver program to test above function
-        public void Run(int[] array,int value)
+        public override void Run(int[] array,int value)
         {
 
             int n = array.Length;
@@ -145,10 +145,8 @@ namespace AlgorithmsAnalysis
             //Console.Write("After Sorting Array is\n");
             //printArray(array, n);
         }
-        public string Name
+        public TimSort(int size,string name) : base(size,name)
         {
-            get => "TimSort";
         }
-        
     }
 }

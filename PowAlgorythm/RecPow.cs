@@ -2,6 +2,7 @@
 
 public class RecPow : PowTest
 {
+    private int stepsCount;
     // public int Steps;
     // public int Degree;
     // public int Number;
@@ -9,7 +10,9 @@ public class RecPow : PowTest
     {
         for (int i = 0; i < 2000; i++)
         {
+            stepsCount = 0;
             RecAlgorithm(i);
+            Steps.Add(new Steps(degree:i,stepNumber:stepsCount));
         }
 
         return 0;
@@ -22,22 +25,21 @@ public class RecPow : PowTest
 
     private long RecAlgorithm(int degree)
     {
-        int count = 0;
         if (degree == 0)
             {
-                count++; 
+                stepsCount++; 
                 return 1;
             }
                
             long res = RecAlgorithm(degree / 2);
             if (degree % 2 == 1)
             {
-                count++;
+                stepsCount++;
                 return res * res * 2;
             }
                 
-            count++;
-            Steps.Add(new Steps(degree:degree,stepNumber:count));
+            stepsCount++;
+            
             return res * res;
     }
 }

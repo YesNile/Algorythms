@@ -31,7 +31,7 @@ public class QuickPow1 : PowTest
 
                 }
             }
-            Steps.Add(new Steps(degree:degree,stepNumber:count));
+            Steps.Add(new Steps(degree:i,stepNumber:count));
             
         }
         

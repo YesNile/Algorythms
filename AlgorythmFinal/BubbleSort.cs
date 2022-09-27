@@ -2,7 +2,11 @@
 {
     class BubbleSort : IResercheable
     {
-        public void Run(int[] array, int value)
+        public BubbleSort(int size,string name) : base(size,name)
+        {
+        }
+
+        public override void Run(int[] array, int value)
         {
             for (int i = 0; i < array.Length; i++)
             {
@@ -14,11 +18,6 @@
                     }
                 }
             }
-        }
-
-        public string Name
-        {
-            get => "BubbleSort";
         }
     }
 }

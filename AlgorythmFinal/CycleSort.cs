@@ -10,7 +10,7 @@ class CycleSort : IResercheable
 
             rightItem = temp;
         }
-        public void Run(int[] array, int value)
+        public override void Run(int[] array, int value)
         {
             for (int cycleStart = 0; cycleStart < array.Length - 1; cycleStart++)
             {
@@ -65,9 +65,7 @@ class CycleSort : IResercheable
             
             
         }
-
-        public string Name
+        public CycleSort(int size,string name) : base(size,name)
         {
-            get => "CycleSort";
         }
     }

@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "H:\\AlgorythmFinal\\PowAlgorythm\\PowAlgorythm.csproj",
+      "projectUniqueName": "D:\\Users\\Данил\\RiderProjects\\Algorythms\\PowAlgorythm\\PowAlgorythm.csproj",
       "projectName": "PowAlgorythm",
-      "projectPath": "H:\\AlgorythmFinal\\PowAlgorythm\\PowAlgorythm.csproj",
+      "projectPath": "D:\\Users\\Данил\\RiderProjects\\Algorythms\\PowAlgorythm\\PowAlgorythm.csproj",
       "packagesPath": "C:\\Users\\Данил\\.nuget\\packages\\",
-      "outputPath": "H:\\AlgorythmFinal\\PowAlgorythm\\obj\\",
+      "outputPath": "D:\\Users\\Данил\\RiderProjects\\Algorythms\\PowAlgorythm\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Данил\\AppData\\Roaming\\NuGet\\NuGet.Config",

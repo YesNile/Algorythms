@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "H:\\AlgorythmFinal\\MatrixAlgorythm\\MatrixAlgorythm.csproj",
+      "projectUniqueName": "D:\\Users\\Данил\\RiderProjects\\Algorythms\\MatrixAlgorythm\\MatrixAlgorythm.csproj",
       "projectName": "MatrixAlgorythm",
-      "projectPath": "H:\\AlgorythmFinal\\MatrixAlgorythm\\MatrixAlgorythm.csproj",
+      "projectPath": "D:\\Users\\Данил\\RiderProjects\\Algorythms\\MatrixAlgorythm\\MatrixAlgorythm.csproj",
       "packagesPath": "C:\\Users\\Данил\\.nuget\\packages\\",
-      "outputPath": "H:\\AlgorythmFinal\\MatrixAlgorythm\\obj\\",
+      "outputPath": "D:\\Users\\Данил\\RiderProjects\\Algorythms\\MatrixAlgorythm\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Данил\\AppData\\Roaming\\NuGet\\NuGet.Config",

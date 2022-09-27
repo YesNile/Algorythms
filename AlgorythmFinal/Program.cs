@@ -16,25 +16,26 @@ namespace AlgorithmsAnalysis
             // {
             //     50,100,150,200,500,700,1000,2000,5000,8000,10000,12000
             // };
-            Random rand = new Random();
-            int[] dimensions = new int[2000];
-            for (int i = 0; i < dimensions.Length; i++)
-                dimensions[i] = i + 1; // rand.Next(0,1000) + 1;
+            // Random rand = new Random();
+            // int[] dimensions = new int[200000];
+            // for (int i = 0; i < dimensions.Length; i++)
+            //     dimensions[i] = i + 1; // rand.Next(0,1000) + 1;
             List<IResercheable> algorythmList = new List<IResercheable>()
             {
-                new BubbleSort(),
-                new CoctailSort(),
-                new TimSort(),
-                new Linal(),
-                new Summ(),
-                new Multiplication(),
-                new CycleSort(),
-                new QuickSort()
+                // new BubbleSort(2000,"BubbleSort"),
+                // new CoctailSort(2000,"CoctailSort"),
+                // new TimSort(20000,"TimSort"),
+                // new Linal(50000,"Linal"),
+                // new Summ(50000,"Summ"),
+                // new Gorner(50000,"Gorner"),
+                // new Multiplication(50000,"Multiplication"),
+                // new CycleSort(2000,"CycleSort"),
+                new QuickSort(12000,"QuickSort")
             };
-
+            
             foreach (var algol in algorythmList)
             {
-                    Tools.ConductResearch(dimensions, algol);
+                    Tools.ConductResearch(algol);
             }
         }
     }
@@ -52,14 +53,14 @@ namespace AlgorithmsAnalysis
         }
 
         //Метод, создающий массив заданного размера с отсортированными значениями
-        public static int[] GenerateSortedArray(int size)
-        {
-            int[] array = new int[size];
-            Random random = new Random();
-            for (int i = 1; i < array.Length; i++)
-                array[i] = array[i - 1] + random.Next(1000) + 1;
-            return array;
-        }
+        // public static int[] GenerateSortedArray(int size)
+        // {
+        //     int[] array = new int[size];
+        //     Random random = new Random();
+        //     for (int i = 1; i < array.Length; i++)
+        //         array[i] = array[i - 1] + random.Next(1000) + 1;
+        //     return array;
+        // }
 
         //Метод, возвращающий время, которое он потратил на алгоритм
         public static long MeasureTime(int[] array, IResercheable algorithm)
@@ -75,18 +76,18 @@ namespace AlgorithmsAnalysis
         }
 
         //Метод для тестирования
-        public static void ConductResearch(int[] dimensions, IResercheable algorithm, bool sorted = false)
+        public static void ConductResearch( IResercheable algorithm, bool sorted = false)
         {
             List<(int, long)> results = new List<(int, long)>();
             results.Add((-1, sorted ? 1 : 0));
 
-            foreach (int dimension in dimensions)
+            foreach (int dimension in algorithm.TestArray)
             {
                 for (int i = 0; i < 5; i++)
                 {
                     Console.WriteLine($"Проверка размера {algorithm.Name}: {dimension}");
                     results.Add((dimension,
-                        MeasureTime(sorted ? GenerateSortedArray(dimension) : GenerateArray(dimension), algorithm)));
+                        MeasureTime(GenerateArray(dimension), algorithm)));
                 }
             }
             // foreach(var num in results)
@@ -96,7 +97,7 @@ namespace AlgorithmsAnalysis
 
             Console.WriteLine("Выполнено!");
             List<(int, long)> res = new List<(int, long)>();
-            for (int i = 1; i <= 2000; i++)
+            for (int i = 1; i <= algorithm.TestArray.Length; i++)
             {
                 var average =  results.Where(x => x.Item1 == i).Average(x=>x.Item2);
                 res.Add((i,(long)average));
@@ -127,14 +128,31 @@ namespace AlgorithmsAnalysis
     }
 
 
-    interface IResercheable
+    public abstract class IResercheable
     {
         //Метод, описывающий алгоритм
         //array - набор данных, который будет тестироваться
         //value - значение, которое ищем в массиве
-        void Run(int[] array, int value = 0);
+        protected IResercheable(int size,string name)
+        {
+            TestArray = GenerateArray(size);
+            Name = name;
+        }
 
+        private int[] GenerateArray(int size)
+        {
+            int[] dimensions = new int[size];
+            for (int i = 0; i < dimensions.Length; i++)
+            {
+                dimensions[i] = i + 1;
+            }
+
+            return dimensions;
+        }
+        public abstract void Run(int[] array, int value = 0);
+
+        public int[] TestArray { get; }
         //Имя, которое отображается в экспортном файле
-        string Name { get; }
+        public string Name { get; }
     }
 }

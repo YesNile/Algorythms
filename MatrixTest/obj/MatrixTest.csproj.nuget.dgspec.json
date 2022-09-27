@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "H:\\AlgorythmFinal\\MatrixTest\\MatrixTest.csproj": {}
+    "D:\\Users\\Данил\\RiderProjects\\Algorythms\\MatrixTest\\MatrixTest.csproj": {}
   },
   "projects": {
-    "H:\\AlgorythmFinal\\MatrixTest\\MatrixTest.csproj": {
+    "D:\\Users\\Данил\\RiderProjects\\Algorythms\\MatrixTest\\MatrixTest.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "H:\\AlgorythmFinal\\MatrixTest\\MatrixTest.csproj",
+        "projectUniqueName": "D:\\Users\\Данил\\RiderProjects\\Algorythms\\MatrixTest\\MatrixTest.csproj",
         "projectName": "MatrixTest",
-        "projectPath": "H:\\AlgorythmFinal\\MatrixTest\\MatrixTest.csproj",
+        "projectPath": "D:\\Users\\Данил\\RiderProjects\\Algorythms\\MatrixTest\\MatrixTest.csproj",
         "packagesPath": "C:\\Users\\Данил\\.nuget\\packages\\",
-        "outputPath": "H:\\AlgorythmFinal\\MatrixTest\\obj\\",
+        "outputPath": "D:\\Users\\Данил\\RiderProjects\\Algorythms\\MatrixTest\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Данил\\AppData\\Roaming\\NuGet\\NuGet.Config",

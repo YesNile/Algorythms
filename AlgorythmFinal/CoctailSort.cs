@@ -4,12 +4,7 @@ namespace AlgorithmsAnalysis
 {
     class CoctailSort : IResercheable
     {
-        public string Name
-        {
-            get => "CoctailSort";
-        }
-
-        public void Run(int[] array, int value)
+        public override void Run(int[] array, int value)
         {
             ShakerSort(array);
         }
@@ -49,6 +44,10 @@ namespace AlgorithmsAnalysis
             int glass = array[i];
             array[i] = array[j];
             array[j] = glass;
+        }
+
+        public CoctailSort(int size,string name) : base(size,name)
+        {
         }
     }
 }

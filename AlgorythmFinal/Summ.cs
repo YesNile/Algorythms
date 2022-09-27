@@ -2,7 +2,7 @@
 {
     public class Summ : IResercheable
     {
-        public void Run(int[] array, int value)
+        public override void Run(int[] array, int value)
         {
             int sum = 0;
             foreach (int elem in array)
@@ -10,10 +10,8 @@
                 sum += elem;
             }
         }
-
-        public string Name
+        public Summ(int size,string name) : base(size,name)
         {
-            get => "Summ";
         }
     }
 }

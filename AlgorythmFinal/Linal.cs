@@ -7,14 +7,12 @@
             return 1;
         }
 
-        public void Run(int[] array, int value)
+        public override void Run(int[] array, int value)
         {
             Returning(array);
         }
-
-        public string Name
+        public Linal(int size,string name) : base(size,name)
         {
-            get => "Linal";
         }
     }
 }

@@ -31,7 +31,6 @@ namespace PowAlgorythm
             foreach (var pow in results)
             {
                 Console.WriteLine($"Pow Result:{pow.Run()}");
-                Console.WriteLine($"Pow Steps:{pow.Steps}");
                 Export.ExportAsCsvPow(pow);
             }
             // Console.WriteLine("Pow Result:");

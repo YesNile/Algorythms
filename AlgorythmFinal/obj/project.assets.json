@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "H:\\AlgorythmFinal\\AlgorythmFinal\\AlgorythmFinal.csproj",
+      "projectUniqueName": "D:\\Users\\Данил\\RiderProjects\\Algorythms\\AlgorythmFinal\\AlgorythmFinal.csproj",
       "projectName": "AlgorythmFinal",
-      "projectPath": "H:\\AlgorythmFinal\\AlgorythmFinal\\AlgorythmFinal.csproj",
+      "projectPath": "D:\\Users\\Данил\\RiderProjects\\Algorythms\\AlgorythmFinal\\AlgorythmFinal.csproj",
       "packagesPath": "C:\\Users\\Данил\\.nuget\\packages\\",
-      "outputPath": "H:\\AlgorythmFinal\\AlgorythmFinal\\obj\\",
+      "outputPath": "D:\\Users\\Данил\\RiderProjects\\Algorythms\\AlgorythmFinal\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Данил\\AppData\\Roaming\\NuGet\\NuGet.Config",

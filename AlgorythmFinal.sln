@@ -2,8 +2,6 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AlgorythmFinal", "AlgorythmFinal\AlgorythmFinal.csproj", "{B829BF09-3835-42F0-B992-5A7E3A8C512C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MatrixAlgorythm", "MatrixAlgorythm\MatrixAlgorythm.csproj", "{54EFF3FF-7A62-4CCA-87FE-7CEFDF2536A2}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PowAlgorythm", "PowAlgorythm\PowAlgorythm.csproj", "{BED722EE-B69C-4478-BFDB-C3C8263C5B4B}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MatrixTest", "MatrixTest\MatrixTest.csproj", "{9ED13196-C314-41E9-93E4-15A45D1EE5CE}"
@@ -18,10 +16,6 @@ Global
 		{B829BF09-3835-42F0-B992-5A7E3A8C512C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B829BF09-3835-42F0-B992-5A7E3A8C512C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B829BF09-3835-42F0-B992-5A7E3A8C512C}.Release|Any CPU.Build.0 = Release|Any CPU
-		{54EFF3FF-7A62-4CCA-87FE-7CEFDF2536A2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{54EFF3FF-7A62-4CCA-87FE-7CEFDF2536A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{54EFF3FF-7A62-4CCA-87FE-7CEFDF2536A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{54EFF3FF-7A62-4CCA-87FE-7CEFDF2536A2}.Release|Any CPU.Build.0 = Release|Any CPU
 		{BED722EE-B69C-4478-BFDB-C3C8263C5B4B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{BED722EE-B69C-4478-BFDB-C3C8263C5B4B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BED722EE-B69C-4478-BFDB-C3C8263C5B4B}.Release|Any CPU.ActiveCfg = Release|Any CPU
