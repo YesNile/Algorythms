@@ -122,28 +122,12 @@ namespace AlgorithmsAnalysis
                 }
             }
         }
-
-        // Utility function to print the Array
-        // public static void printArray(int[] array, int n)
-        // {
-        //     for (int i = 0; i < n; i++)
-        //         Console.Write(array[i] + " ");
-        //     Console.Write("\n");
-        // }
-
-        // Driver program to test above function
+        
         public override void Run(int[] array,int value)
         {
 
             int n = array.Length;
-            //Console.Write("Given Array is\n");
-            // printArray(array, n);
-
-            // Function Call
             timSort(array, n);
-
-            //Console.Write("After Sorting Array is\n");
-            //printArray(array, n);
         }
         public TimSort(int size,string name) : base(size,name)
         {

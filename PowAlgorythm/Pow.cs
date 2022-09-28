@@ -2,9 +2,6 @@
 
 public class Pow : PowTest
 {
-    // public int Degree;
-    // public int Number;
-    // public int Steps;
     public override long Run()
     {
         long res = 1;

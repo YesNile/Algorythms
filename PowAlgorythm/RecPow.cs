@@ -3,9 +3,6 @@
 public class RecPow : PowTest
 {
     private int stepsCount;
-    // public int Steps;
-    // public int Degree;
-    // public int Number;
     public override long Run()
     {
         for (int i = 0; i < 2000; i++)

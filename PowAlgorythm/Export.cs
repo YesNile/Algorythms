@@ -12,8 +12,6 @@ public class Export
         Console.WriteLine($"File saved at: {path}");
         StringBuilder sb = new StringBuilder();
         sb.AppendLine($"Tested algorithm:;{pow.GetName()}");
-        // int serviceIndex = researches.FindIndex(x => x.Item1 == -1);
-        // researches.RemoveAt(serviceIndex);
         sb.AppendLine($"Number;Degree;Steps");
         foreach (var step in pow.Steps)
         {

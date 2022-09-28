@@ -2,9 +2,6 @@
 
 public class QuickPow : PowTest
 {
-    // public int Steps;
-    // public int Number;
-    // public int Degree;
     public override long Run()
     {
         long res=0;

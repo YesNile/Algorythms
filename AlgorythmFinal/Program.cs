@@ -12,25 +12,17 @@ namespace AlgorithmsAnalysis
     {
         static void Main(string[] args)
         {
-            // int[] dimensions = new[]
-            // {
-            //     50,100,150,200,500,700,1000,2000,5000,8000,10000,12000
-            // };
-            // Random rand = new Random();
-            // int[] dimensions = new int[200000];
-            // for (int i = 0; i < dimensions.Length; i++)
-            //     dimensions[i] = i + 1; // rand.Next(0,1000) + 1;
             List<IResercheable> algorythmList = new List<IResercheable>()
             {
-                // new BubbleSort(2000,"BubbleSort"),
-                // new CoctailSort(2000,"CoctailSort"),
-                // new TimSort(20000,"TimSort"),
-                // new Linal(50000,"Linal"),
-                // new Summ(50000,"Summ"),
-                // new Gorner(50000,"Gorner"),
-                // new Multiplication(50000,"Multiplication"),
-                // new CycleSort(2000,"CycleSort"),
-                new QuickSort(12000,"QuickSort")
+                new BubbleSort(2000, "BubbleSort"),
+                new CoctailSort(2000, "CoctailSort"),
+                new TimSort(20000, "TimSort"),
+                new Linal(50000, "Linal"),
+                new Summ(50000, "Summ"),
+                new Gorner(10000, "Gorner"),
+                new Multiplication(50000, "Multiplication"),
+                new CycleSort(2000, "CycleSort"),
+                new QuickSort(12000, "QuickSort")
             };
             
             foreach (var algol in algorythmList)
@@ -52,16 +44,6 @@ namespace AlgorithmsAnalysis
              return array;
         }
 
-        //Метод, создающий массив заданного размера с отсортированными значениями
-        // public static int[] GenerateSortedArray(int size)
-        // {
-        //     int[] array = new int[size];
-        //     Random random = new Random();
-        //     for (int i = 1; i < array.Length; i++)
-        //         array[i] = array[i - 1] + random.Next(1000) + 1;
-        //     return array;
-        // }
-
         //Метод, возвращающий время, которое он потратил на алгоритм
         public static long MeasureTime(int[] array, IResercheable algorithm)
         {
@@ -71,7 +53,6 @@ namespace AlgorithmsAnalysis
             watch.Start();
             algorithm.Run(array, array.Length);
             watch.Stop();
-            //return watch.ElapsedMilliseconds;
             return watch.ElapsedTicks / 100;
         }
 
@@ -90,10 +71,6 @@ namespace AlgorithmsAnalysis
                         MeasureTime(GenerateArray(dimension), algorithm)));
                 }
             }
-            // foreach(var num in results)
-            // {
-            //     Console.WriteLine(num);
-            // }
 
             Console.WriteLine("Выполнено!");
             List<(int, long)> res = new List<(int, long)>();
@@ -114,11 +91,6 @@ namespace AlgorithmsAnalysis
             
             StringBuilder sb = new StringBuilder();
             sb.AppendLine($"Tested algorithm:;{algorithm.GetType().Name}({algorithm.Name})");
-            // int serviceIndex = researches.FindIndex(x => x.Item1 == -1);
-            // string sorted = researches[serviceIndex].Item2 == 1 ? "YES" : "NO";
-            // sb.AppendLine($"Sorted?;{sorted}");
-            // sb.AppendLine();
-            // researches.RemoveAt(serviceIndex);
             sb.AppendLine($"Dimension (elements);Spent time (µs)");
             foreach (var pos in researches)
                 sb.AppendLine($"{pos.Item1};{pos.Item2}");
