@@ -20,6 +20,7 @@ namespace AlgorithmsAnalysis
                 new Linal(50000, "Linal"),
                 new Summ(50000, "Summ"),
                 new Gorner(10000, "Gorner"),
+                new Gorner0(10000,"Direct"),
                 new Multiplication(50000, "Multiplication"),
                 new CycleSort(2000, "CycleSort"),
                 new QuickSort(12000, "QuickSort")
